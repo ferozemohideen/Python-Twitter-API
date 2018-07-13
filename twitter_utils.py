@@ -1,6 +1,5 @@
 import oauth2
 import constants
-import constants
 import urllib.parse as urlparse
 
 # create a consumer, which uses CONSUMER_KEY and CONSUMER_SECRET to identify our app uniquely
