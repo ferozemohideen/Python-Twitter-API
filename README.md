@@ -1,2 +1,2 @@
-# Intro-to-Python--Twitter-API
-#Python-Twitter-API
+# Intro to Python - Twitter API
+Python project using both postgresql as a database and the Twitter API. I first learned basic SQL commands to play around with tables in postgres using pgAdmin4, then figured out how to establish a connection to the database in a Python script and deliver SQL commands from there. I use connection pooling to limit the number of connections made to the database used at any one time to save memory. Afterward, I explored the Twitter API and designed an interface allowing users to provide Twitter a search query using the OAuth2 library and displaying the results in a simple web app using Flask. Need to learn more front-end HTML/CSS to make the pages look nicer, the results page currently uses a Bootstrap theme. I also incorporated databases into the project by saving users' access token details to a db in postgres to avoid repeated authorization.
